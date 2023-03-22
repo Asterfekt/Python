@@ -1,0 +1,17 @@
+quote='A good programmer is someone who always looks both ways before crossing a one-way street'
+
+print("1",quote, sep=":")
+print('2',quote.upper(), sep=":")
+print('3',quote.lower(), sep=":")
+print('4',quote.endswith('street'), sep=":")
+print('5',quote.isupper(), sep=":")
+print('6',quote.upper().isupper(), sep=":")
+print('7',quote.find('one'), sep=":")
+print('8',quote.replace('one','1'), sep=":")
+print('9',quote.replace('one','1').replace('both','2'))
+print('10',quote.split(' '))
+print('11')
+print(quote.isdigit())
+print(quote.isdecimal())
+print(quote.isalpha())
+print(quote.isalnum())
